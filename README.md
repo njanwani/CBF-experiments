@@ -10,7 +10,7 @@ and without dealing with storage read/write speeds.
 
 ![Image showing the dual connection between the robot and ground station. The
 first is two-way, secure, easy-to-use, but slow SSH by which ROS communicates.
-The second is Redis, which is less secure, one-way, but faster.](figure it out)
+The second is Redis, which is less secure, one-way, but faster.](https://github.com/njanwani/CBF-experiments/blob/main/images/redis.jpeg)
 
 ## Use case
 This API is best used as a way to demonstrate everyone's work on the robot and
