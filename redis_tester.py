@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
-import ImageTransferService
+import data_transfer
 import numpy as np
 import cv2, time
 import tkinter as tk
 from PIL import Image, ImageTk
 
 host = '0.0.0.0' # this is here as an open signal for images (will accept data from anywhere i think)
-src = ImageTransferService.ImageTransferService(host)
+src = data_transfer.ImageTransferService(host)
 n = 3
 
 # A root window for displaying objects
